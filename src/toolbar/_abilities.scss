@@ -1,0 +1,44 @@
+.toolbar__abilities {
+    position: absolute;
+    top: 38px;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+
+    background-color: white;
+
+    overflow: hidden;
+
+    halfseven-toolbar-ability {
+        display: flex;
+        justify-content: space-between;
+        flex: 0 0 0%;
+        height: 0;
+
+        overflow: hidden;
+    }
+}
+
+.toolbar__abilities--open {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+
+    halfseven-toolbar-ability {
+        height: auto;
+        flex: 1 0 0%;
+
+        padding: 7px;
+    }
+
+    .toolbar-ability__label {
+        flex: 1;
+
+        margin: 0 7px;
+    }
+
+    .toolbar-ability__modifier {
+        margin: 0 7px;
+    }
+}

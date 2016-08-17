@@ -1,0 +1,27 @@
+{
+  "name": "halfsevenjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Scott Trinh",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.5.7",
+    "angular-ui-router": "^0.3.1",
+    "rollup": "^0.33.2"
+  },
+  "devDependencies": {
+    "del": "^2.2.1",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-connect": "^4.1.0",
+    "gulp-rollup": "^2.2.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "rollup": "^0.33.2",
+    "rollup-plugin-commonjs": "^3.1.0",
+    "rollup-plugin-node-resolve": "^1.7.1"
+  }
+}

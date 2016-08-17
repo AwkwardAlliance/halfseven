@@ -1,0 +1,50 @@
+<div
+    class="bio__name"
+    ng-bind="$ctrl.bio.name">
+</div>
+
+<div
+    class="bio__gender"
+    ng-bind="$ctrl.bio.gender">
+</div>
+
+<div
+    class="bio__race"
+    ng-bind="$ctrl.bio.race">
+</div>
+
+<div
+    class="bio__hitpoints">
+
+    <div
+        class="bio__hitpoints__label">
+        Hitpoints:
+    </div>
+
+    <div
+        class="bio__hitpoints__value"
+        ng-bind="$ctrl.bio.hitPoints.max + '/' + $ctrl.bio.hitPoints.current">
+    </div>
+
+
+</div>
+
+<div
+    class="bio__classes">
+
+    <div
+        class="bio__class"
+        ng-repeat="characterClass in $ctrl.bio.classes track by $index">
+
+        <div
+            class="bio__class__level"
+            ng-bind="'Level: ' + characterClass.level">
+        </div>
+
+        <div
+            class="bio__class__name"
+            ng-bind="characterClass.name">
+        </div>
+
+    </div>
+</div>

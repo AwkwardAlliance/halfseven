@@ -1,0 +1,23 @@
+<div
+    class="toolbar__icon toolbar__icon--abilities"
+    ng-click="$ctrl.isAbilitiesOpen = !$ctrl.isAbilitiesOpen"
+    ng-include="'../svg/ability.svg'">
+</div>
+
+<halfseven-toolbar-abilities
+    class="toolbar__abilities"
+    ng-class="{'toolbar__abilities--open': $ctrl.isAbilitiesOpen }"
+    abilities="$ctrl.character.abilities">
+</halfseven-toolbar-abilities>
+
+<div
+    class="toolbar__icon toolbar__icon--bio"
+    ng-click="$ctrl.isBioOpen = !$ctrl.isBioOpen"
+    ng-include="'../svg/bio.svg'">
+</div>
+
+<halfseven-toolbar-bio
+    class="toolbar__bio"
+    ng-class="{'toolbar__bio--open': $ctrl.isBioOpen }"
+    bio="$ctrl.character.bio">
+</halfseven-toolbar-bio>

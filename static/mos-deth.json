@@ -1,0 +1,55 @@
+{
+    "bio": {
+        "name": "Mos Deth",
+        "race": "Elf",
+        "gender": "Male",
+        "size": 0,
+        "experiencePoints": 1000,
+        "hitPoints": {
+            "max": 17,
+            "current": -3
+        },
+        "classes": [{
+            "name": "Ranger",
+            "level": 2
+        }],
+        "alignment": {
+            "lawfulness": 0,
+            "goodness": 2
+        }
+    },
+    "abilities": {
+        "strength": 10,
+        "dexterity": 21,
+        "constitution": 9,
+        "intellegence": 12,
+        "wisdom": 9,
+        "charisma": 8
+    },
+    "skills": {
+        "handleAnimals": 3,
+        "listen": 5,
+        "moveSilently": 4,
+        "ride": 2,
+        "survival": 4,
+        "swim": 2,
+        "knowledgeDungeoneering": 2,
+        "heal": 4
+    },
+    "feats": [
+        "Combat Reflexes",
+        "Track",
+        "Rapid Shot"
+    ],
+    "inventory": {
+        "attacks": {},
+        "armor": {},
+        "money": {
+            "platinum": 0,
+            "gold": 0,
+            "silver": 0,
+            "copper": 0
+        },
+        "inventory": []
+    }
+}
