@@ -15,6 +15,9 @@
   },
   "devDependencies": {
     "del": "^2.2.1",
+    "eslint": "^3.3.1",
+    "eslint-config-airbnb": "^10.0.1",
+    "eslint-plugin-import": "^1.13.0",
     "gulp": "github:gulpjs/gulp#4.0",
     "gulp-connect": "^4.1.0",
     "gulp-rollup": "^2.2.0",
