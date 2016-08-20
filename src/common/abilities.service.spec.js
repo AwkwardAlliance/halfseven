@@ -1,7 +1,7 @@
 const helper = require('../../test-helper');
 require('../../build/main');
 
-const assert = require('assert');
+const expect = require('chai').expect;
 
 beforeEach(helper.module('halfseven'));
 
@@ -16,7 +16,7 @@ describe('Service | halfseven | abilities', () => {
 
     describe('#getModifier', () => {
         it('should exist', () => {
-            assert.ok(abilities.getModifier);
+            expect(abilities.getModifier).not.to.be.undefined;
         });
     });
 });
