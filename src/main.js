@@ -8,6 +8,7 @@ import toolbarAbilities from './toolbar/abilities.component';
 import toolbarAbility from './toolbar/ability.component';
 import toolbarBio from './toolbar/bio.component';
 
+import abilities from './common/abilities.service';
 import characterService from './character/character.service';
 
 angular.module('halfseven', [])
@@ -19,4 +20,5 @@ angular.module('halfseven', [])
     .component('halfsevenToolbarAbility', toolbarAbility)
     .component('halfsevenToolbarBio', toolbarBio)
 
-    .service('characterService', characterService);
+    .service('characterService', characterService)
+    .service('abilities', abilities);
